@@ -1,0 +1,5 @@
+.idea/
+dist/
+node_modules/
+package.json
+ts-react-test.iml
