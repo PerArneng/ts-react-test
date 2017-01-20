@@ -9,3 +9,13 @@ export class Hello extends React.Component<HelloProps, undefined> {
         return <h1>Hello from {this.props.compiler} and {this.props.framework}!</h1>;
     }
 }
+
+export class NameField extends React.Component<undefined, undefined> {
+
+    render() {
+        return  <form>
+                    <b>Name:</b>
+                    <input type="text"></input>
+                </form>;
+    }
+}
